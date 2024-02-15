@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
 import { useSelector } from 'react-redux';
 import { useRef, useState, useEffect } from 'react';
 import {
@@ -15,7 +17,7 @@ import {
   deleteUserStart,
   deleteUserSuccess,
   signOutUserStart,
-} from '../redux/user/UserSlice';
+} from '../redux/user/userSlice';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 export default function Profile() {
