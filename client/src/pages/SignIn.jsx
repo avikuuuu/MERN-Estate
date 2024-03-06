@@ -5,7 +5,7 @@ import {
   signInStart,
   signInSuccess,
   signInFailure,
-} from '../redux/user/userSlice';
+} from '../redux/user/UserSlice.js';
 import OAuth from '../components/OAuth';
 
 export default function SignIn() {
